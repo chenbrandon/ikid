@@ -123,10 +123,10 @@
             </objects>
             <point key="canvasLocation" x="-1477" y="-697"/>
         </scene>
-        <!--Fourth View Controller-->
+        <!--View Controller-->
         <scene sceneID="fvi-6e-AHQ">
             <objects>
-                <viewController id="dtN-6w-YVN" customClass="FourthViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dtN-6w-YVN" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n44-DO-TZO"/>
                         <viewControllerLayoutGuide type="bottom" id="FNl-Qk-zhf"/>
