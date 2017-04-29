@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,20 +20,29 @@
                         <viewControllerLayoutGuide type="bottom" id="YH5-Xh-za2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tI9-kU-fbE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Joke Answer here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msN-ry-Ukp">
-                                <rect key="frame" x="69" y="229.5" width="182" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who's there?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msN-ry-Ukp">
+                                <rect key="frame" x="137" y="323" width="101" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svf-wh-h0m">
+                                <rect key="frame" x="327" y="580" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="2pC-pG-iCB" kind="show" id="fgt-nc-4K4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="msN-ry-Ukp" firstAttribute="centerY" secondItem="tI9-kU-fbE" secondAttribute="centerY" id="B5V-dg-kFc"/>
                             <constraint firstItem="msN-ry-Ukp" firstAttribute="centerX" secondItem="tI9-kU-fbE" secondAttribute="centerX" id="MM4-J8-Scc"/>
+                            <constraint firstItem="YH5-Xh-za2" firstAttribute="top" secondItem="svf-wh-h0m" secondAttribute="bottom" constant="8" id="SsL-WQ-Fex"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="svf-wh-h0m" secondAttribute="trailing" id="XaN-g4-2rn"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -50,17 +59,17 @@
                         <viewControllerLayoutGuide type="bottom" id="DRF-7f-NJn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6Bz-nu-okl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Joke Question here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gD-bz-BAH">
-                                <rect key="frame" x="63" y="229.5" width="194" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Knock Knock" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gD-bz-BAH">
+                                <rect key="frame" x="137" y="323" width="101" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAL-wX-3xf">
-                                <rect key="frame" x="272" y="393" width="32" height="30"/>
+                                <rect key="frame" x="327" y="580" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="sCd-gq-OcZ" kind="show" id="mFB-7l-F4R"/>
@@ -141,17 +150,17 @@
                         <viewControllerLayoutGuide type="bottom" id="FNl-Qk-zhf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="i48-yK-a1f">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jokes about plaid are simply not okay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WeY-Gs-Jnq">
-                                <rect key="frame" x="16.5" y="229.5" width="287" height="21"/>
+                                <rect key="frame" x="44" y="323" width="287" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seD-wo-ZD9">
-                                <rect key="frame" x="272" y="393" width="32" height="30"/>
+                                <rect key="frame" x="327" y="580" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="bRd-b6-Wv9" kind="show" id="klk-o8-5fN"/>
@@ -181,11 +190,11 @@
                         <viewControllerLayoutGuide type="bottom" id="l4m-tx-7w2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Lt0-qW-44d">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Far too many lines get crossed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6an-IU-PNy">
-                                <rect key="frame" x="43" y="229.5" width="234" height="21"/>
+                                <rect key="frame" x="70.5" y="323" width="234" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -231,17 +240,17 @@
                         <viewControllerLayoutGuide type="bottom" id="VrL-Jx-Q2A"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fbO-jR-1XH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pun Joke Answer here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4Y-eD-4Ty">
-                                <rect key="frame" x="75" y="229.5" width="170" height="21"/>
+                                <rect key="frame" x="102.5" y="323" width="170" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced-10082-1396279443-2" translatesAutoresizingMaskIntoConstraints="NO" id="psO-ZK-esd">
-                                <rect key="frame" x="-20" y="144" width="360" height="192"/>
+                                <rect key="frame" x="7.5" y="237.5" width="360" height="192"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="psO-ZK-esd" secondAttribute="height" multiplier="15:8" id="W4x-6q-jqo"/>
                                     <constraint firstAttribute="width" constant="360" id="Y9B-Lu-M7k"/>
@@ -270,24 +279,24 @@
                         <viewControllerLayoutGuide type="bottom" id="bb7-pG-Jdq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mUA-cI-18U">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pun Joke Question Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lv9-A8-j39">
-                                <rect key="frame" x="67.5" y="229.5" width="185" height="21"/>
+                                <rect key="frame" x="95" y="323" width="185" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkD-zm-bqw">
-                                <rect key="frame" x="272" y="393" width="32" height="30"/>
+                                <rect key="frame" x="327" y="580" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="2il-ku-s8a" kind="show" id="FLF-xt-mql"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced-16980-1396279418-1" translatesAutoresizingMaskIntoConstraints="NO" id="tse-Ew-PXL">
-                                <rect key="frame" x="-20" y="144" width="360" height="192"/>
+                                <rect key="frame" x="7.5" y="237.5" width="360" height="192"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tse-Ew-PXL" secondAttribute="height" multiplier="15:8" id="TIb-Oy-Fhg"/>
                                     <constraint firstAttribute="width" constant="360" id="mf3-WG-EFF"/>
@@ -309,6 +318,123 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="doe-IU-bkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2146.875" y="770"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Qnc-NC-RHi">
+            <objects>
+                <viewController id="2pC-pG-iCB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mRQ-QZ-lNy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Oc5-sb-su9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qQb-6E-gDO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cows go" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECe-hG-siO">
+                                <rect key="frame" x="154" y="323" width="67" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWP-RZ-zWA">
+                                <rect key="frame" x="327" y="580" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="aqq-FJ-b2k" kind="show" id="2DT-ex-Chg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ECe-hG-siO" firstAttribute="centerY" secondItem="qQb-6E-gDO" secondAttribute="centerY" id="LAj-cw-L4s"/>
+                            <constraint firstItem="ECe-hG-siO" firstAttribute="centerX" secondItem="qQb-6E-gDO" secondAttribute="centerX" id="Wpe-S0-tcZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FWP-RZ-zWA" secondAttribute="trailing" id="cic-DK-6dv"/>
+                            <constraint firstItem="Oc5-sb-su9" firstAttribute="top" secondItem="FWP-RZ-zWA" secondAttribute="bottom" constant="8" id="ldX-c6-60k"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fzu-xu-0Rh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Ge-wT-EOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4174" y="770"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8U5-f0-297">
+            <objects>
+                <viewController id="aqq-FJ-b2k" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gI3-M9-DLw"/>
+                        <viewControllerLayoutGuide type="bottom" id="aOt-LP-68I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="et5-tL-ZgZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cows go who?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqw-8U-ayZ">
+                                <rect key="frame" x="131.5" y="323" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgW-cG-QmO">
+                                <rect key="frame" x="327" y="580" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="HsB-cr-c5K" kind="show" id="ari-iU-zE0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yqw-8U-ayZ" firstAttribute="centerX" secondItem="et5-tL-ZgZ" secondAttribute="centerX" id="PbW-NL-wAG"/>
+                            <constraint firstItem="aOt-LP-68I" firstAttribute="top" secondItem="EgW-cG-QmO" secondAttribute="bottom" constant="8" id="YYl-3M-6KE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EgW-cG-QmO" secondAttribute="trailing" id="cvG-bq-BWs"/>
+                            <constraint firstItem="Yqw-8U-ayZ" firstAttribute="centerY" secondItem="et5-tL-ZgZ" secondAttribute="centerY" id="wQl-km-lXd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="o4a-Ux-A6E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vlj-lh-CQt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5025" y="790"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="x2Z-OC-iIj">
+            <objects>
+                <viewController id="HsB-cr-c5K" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="M23-RY-lwc"/>
+                        <viewControllerLayoutGuide type="bottom" id="yv2-nk-mIo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CoE-v4-brs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No silly, cows go moo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fU3-mE-aQZ">
+                                <rect key="frame" x="105" y="323" width="165" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sb6-vR-EUf">
+                                <rect key="frame" x="327" y="580" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fU3-mE-aQZ" firstAttribute="centerY" secondItem="CoE-v4-brs" secondAttribute="centerY" id="EcS-aN-OVK"/>
+                            <constraint firstItem="fU3-mE-aQZ" firstAttribute="centerX" secondItem="CoE-v4-brs" secondAttribute="centerX" id="HzJ-Cb-VZ3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sb6-vR-EUf" secondAttribute="trailing" id="OFB-tI-16V"/>
+                            <constraint firstItem="yv2-nk-mIo" firstAttribute="top" secondItem="Sb6-vR-EUf" secondAttribute="bottom" constant="8" id="X96-gP-yab"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LLe-Re-AlM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJD-OE-Vhb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6004" y="790"/>
         </scene>
     </scenes>
     <resources>
