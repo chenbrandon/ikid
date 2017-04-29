@@ -417,17 +417,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sb6-vR-EUf">
-                                <rect key="frame" x="327" y="580" width="32" height="30"/>
-                                <state key="normal" title="Next"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fU3-mE-aQZ" firstAttribute="centerY" secondItem="CoE-v4-brs" secondAttribute="centerY" id="EcS-aN-OVK"/>
                             <constraint firstItem="fU3-mE-aQZ" firstAttribute="centerX" secondItem="CoE-v4-brs" secondAttribute="centerX" id="HzJ-Cb-VZ3"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Sb6-vR-EUf" secondAttribute="trailing" id="OFB-tI-16V"/>
-                            <constraint firstItem="yv2-nk-mIo" firstAttribute="top" secondItem="Sb6-vR-EUf" secondAttribute="bottom" constant="8" id="X96-gP-yab"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LLe-Re-AlM"/>
