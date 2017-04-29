@@ -240,11 +240,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced-10082-1396279443-2" translatesAutoresizingMaskIntoConstraints="NO" id="psO-ZK-esd">
+                                <rect key="frame" x="-20" y="144" width="360" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="psO-ZK-esd" secondAttribute="height" multiplier="15:8" id="W4x-6q-jqo"/>
+                                    <constraint firstAttribute="width" constant="360" id="Y9B-Lu-M7k"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="psO-ZK-esd" firstAttribute="centerX" secondItem="fbO-jR-1XH" secondAttribute="centerX" id="LuV-0T-vVr"/>
                             <constraint firstItem="Z4Y-eD-4Ty" firstAttribute="centerX" secondItem="fbO-jR-1XH" secondAttribute="centerX" id="Uus-Su-J7e"/>
                             <constraint firstItem="Z4Y-eD-4Ty" firstAttribute="centerY" secondItem="fbO-jR-1XH" secondAttribute="centerY" id="Zsr-o9-KMJ"/>
+                            <constraint firstItem="psO-ZK-esd" firstAttribute="centerY" secondItem="fbO-jR-1XH" secondAttribute="centerY" id="bDI-kd-zoW"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -303,6 +312,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="enhanced-10082-1396279443-2" width="500" height="288"/>
         <image name="enhanced-16980-1396279418-1" width="500" height="317"/>
     </resources>
 </document>
