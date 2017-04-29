@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina3_5" orientation="landscape">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,11 +20,11 @@
                         <viewControllerLayoutGuide type="bottom" id="YH5-Xh-za2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tI9-kU-fbE">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Joke Answer here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msN-ry-Ukp">
-                                <rect key="frame" x="149" y="149.5" width="182" height="21"/>
+                                <rect key="frame" x="69" y="229.5" width="182" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -49,17 +50,17 @@
                         <viewControllerLayoutGuide type="bottom" id="DRF-7f-NJn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6Bz-nu-okl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Joke Question here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gD-bz-BAH">
-                                <rect key="frame" x="143" y="149.5" width="194" height="21"/>
+                                <rect key="frame" x="63" y="229.5" width="194" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAL-wX-3xf">
-                                <rect key="frame" x="428" y="233" width="32" height="30"/>
+                                <rect key="frame" x="272" y="393" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="sCd-gq-OcZ" kind="show" id="mFB-7l-F4R"/>
@@ -140,17 +141,17 @@
                         <viewControllerLayoutGuide type="bottom" id="FNl-Qk-zhf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="i48-yK-a1f">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jokes about plaid are simply not okay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WeY-Gs-Jnq">
-                                <rect key="frame" x="97" y="149.5" width="286.5" height="21"/>
+                                <rect key="frame" x="16.5" y="229.5" width="287" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seD-wo-ZD9">
-                                <rect key="frame" x="428" y="233" width="32" height="30"/>
+                                <rect key="frame" x="272" y="393" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="bRd-b6-Wv9" kind="show" id="klk-o8-5fN"/>
@@ -180,11 +181,11 @@
                         <viewControllerLayoutGuide type="bottom" id="l4m-tx-7w2"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Lt0-qW-44d">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Far too many lines get crossed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6an-IU-PNy">
-                                <rect key="frame" x="123.5" y="149.5" width="233.5" height="21"/>
+                                <rect key="frame" x="43" y="229.5" width="234" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -230,11 +231,11 @@
                         <viewControllerLayoutGuide type="bottom" id="VrL-Jx-Q2A"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fbO-jR-1XH">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pun Joke Answer here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4Y-eD-4Ty">
-                                <rect key="frame" x="155" y="149.5" width="170" height="21"/>
+                                <rect key="frame" x="75" y="229.5" width="170" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -260,28 +261,37 @@
                         <viewControllerLayoutGuide type="bottom" id="bb7-pG-Jdq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mUA-cI-18U">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pun Joke Question Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lv9-A8-j39">
-                                <rect key="frame" x="147.5" y="149.5" width="185" height="21"/>
+                                <rect key="frame" x="67.5" y="229.5" width="185" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkD-zm-bqw">
-                                <rect key="frame" x="428" y="233" width="32" height="30"/>
+                                <rect key="frame" x="272" y="393" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <segue destination="2il-ku-s8a" kind="show" id="FLF-xt-mql"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enhanced-16980-1396279418-1" translatesAutoresizingMaskIntoConstraints="NO" id="tse-Ew-PXL">
+                                <rect key="frame" x="-20" y="144" width="360" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tse-Ew-PXL" secondAttribute="height" multiplier="15:8" id="TIb-Oy-Fhg"/>
+                                    <constraint firstAttribute="width" constant="360" id="mf3-WG-EFF"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="lv9-A8-j39" firstAttribute="centerX" secondItem="mUA-cI-18U" secondAttribute="centerX" id="2Gb-hD-PxU"/>
+                            <constraint firstItem="tse-Ew-PXL" firstAttribute="centerY" secondItem="mUA-cI-18U" secondAttribute="centerY" id="BRT-m2-1M7"/>
                             <constraint firstItem="bb7-pG-Jdq" firstAttribute="top" secondItem="vkD-zm-bqw" secondAttribute="bottom" constant="8" id="H8l-er-Xhl"/>
                             <constraint firstItem="lv9-A8-j39" firstAttribute="centerY" secondItem="mUA-cI-18U" secondAttribute="centerY" id="Xr4-cY-zw5"/>
+                            <constraint firstItem="tse-Ew-PXL" firstAttribute="centerX" secondItem="mUA-cI-18U" secondAttribute="centerX" id="iMY-6b-Kfl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vkD-zm-bqw" secondAttribute="trailing" id="lo4-1o-mdl"/>
                         </constraints>
                     </view>
@@ -289,7 +299,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="doe-IU-bkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2148" y="770"/>
+            <point key="canvasLocation" x="2146.875" y="770"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="enhanced-16980-1396279418-1" width="500" height="317"/>
+    </resources>
 </document>
